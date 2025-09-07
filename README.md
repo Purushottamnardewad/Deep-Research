@@ -27,25 +27,24 @@ You can try the app here:
 	•	Database: SQLite (local), PostgreSQL (production)
 
 # Getting Started
-1.	Clone the repo
+# 1. Clone the repo
 git clone https://github.com/Purushottamnardewad/Deep-Research.git
 
-2.	Install dependencies
+# 2. Install dependencies
 
 npm install
 
-
-3.	Copy env file and add your API key
+# 3. Copy env file and add your API key
 
 cp .env.example .env.local
 
-
-4.	Run the dev server
+# 4. Run the dev server
 
 npm run dev
 
+# 5. Open 
 
-5.	Open http://localhost:3000
+http://localhost:3000
 
 # Deployment
 	•	Vercel (recommended): Import repo, add env vars, deploy.
