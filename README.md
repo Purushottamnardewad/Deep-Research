@@ -8,6 +8,11 @@ A web app that automates end-to-end research using OpenAI’s GPT models. Enter 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css&logoColor=white)
 
 
+# Live Demo
+
+You can try the app here:
+👉 https://deep-research.vercel.app
+
 # Features
 	•	Automatic multi-step research planning
 	•	Real-time progress tracking
@@ -22,28 +27,26 @@ A web app that automates end-to-end research using OpenAI’s GPT models. Enter 
 	•	Database: SQLite (local), PostgreSQL (production)
 
 # Getting Started
-	1.	Clone the repo
+1.	Clone the repo
+git clone https://github.com/Purushottamnardewad/Deep-Research.git
+cd Deep-Research
 
-git clone https://github.com/yourusername/deep-research-ai-agent.git
-cd deep-research-ai-agent
-
-
-	2.	Install dependencies
+2.	Install dependencies
 
 npm install
 
 
-	3.	Copy env file and add your API key
+3.	Copy env file and add your API key
 
 cp .env.example .env.local
 
 
-	4.	Run the dev server
+4.	Run the dev server
 
 npm run dev
 
 
-	5.	Open http://localhost:3000
+5.	Open http://localhost:3000
 
 # Deployment
 	•	Vercel (recommended): Import repo, add env vars, deploy.
@@ -52,6 +55,3 @@ npm run dev
 # Contributing
 
 Pull requests are welcome. Please open an issue first to discuss major changes.
-
-
-# Built with Next.js, TypeScript, and OpenAI
