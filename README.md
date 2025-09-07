@@ -29,7 +29,6 @@ You can try the app here:
 # Getting Started
 1.	Clone the repo
 git clone https://github.com/Purushottamnardewad/Deep-Research.git
-cd Deep-Research
 
 2.	Install dependencies
 
